@@ -34,7 +34,7 @@ class Config(dict):
     def __init__(self):
         super().__init__(
             dict(
-                input_path = "/root/.cache/kagglehub/datasets/jessicali9530/stanford-cars-dataset/versions/2",
+                input_path = "kagglehub/datasets/jessicali9530/stanford-cars-dataset/versions/2",
                 output_path = "working",
                 checkpoint_path = "mbr.pt",
                 epochs = 100,
